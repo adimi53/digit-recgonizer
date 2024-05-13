@@ -1,8 +1,5 @@
-import cv2
-import numpy as np 
 import matplotlib.pyplot as plt
 import tensorflow as tf
-import os
 
 mnist = tf.keras.datasets.mnist     #load the dataset from tenserflow
 (x_train, y_train) , (x_test, y_test) =mnist.load_data()   #Split the labeled data to Test and Traingng #x for image, y for classification (which digit is it really)
